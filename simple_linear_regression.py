@@ -1,6 +1,6 @@
 """
 - Basic version OLS method
-- This Implementation only works for single input feature not.
+- This Implementation only works for single input feature.
 """
 
 import numpy as np
