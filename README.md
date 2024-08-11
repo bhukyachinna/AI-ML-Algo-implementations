@@ -1,2 +1,2 @@
-# AI-ML-Algo-implementations
+# ML-Algo-implementations
 Algorithm Implementations.
