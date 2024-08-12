@@ -21,7 +21,7 @@ class MBGDRegressor:
         for i in range(self.epoch):
             for j in range(X_train.sahpe[0] / self.batch_size):
                 # Here updating coef_, intercept_ batch_size times per epoch
-                idx = np.random.sample(0, X_train.shape[0], self.batch_size)
+                idx = np.random.randint(0, X_train.shape[0], self.batch_size)
 
                 y_hat = np.dot(X_train[idx], self.coef_) + self.intercept_
                 intercept_derivative = -2 * np.mean(y_train[idx] - y_hat)
